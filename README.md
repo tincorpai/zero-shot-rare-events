@@ -5,28 +5,28 @@ This project demonstrates an industry-ready workflow for detecting rare clinical
 
 ## Project Summary
 
-LLM Zero-Shot Labeling:
+** LLM Zero-Shot Labeling:
 The LLM evaluates each clinical note and assigns “rare event” or “non-event” labels with no task-specific training.
 
-Synthetic Dataset Creation:
+** Synthetic Dataset Creation:
 LLM-generated labels are paired with synthetic clinical notes to form a training dataset.
 
-ML Model Training:
+** ML Model Training:
 A compact classifier (e.g., logistic regression or XGBoost) learns from LLLM labels to deliver fast, cost-efficient inference.
 
-Evaluation:
+** Evaluation:
 Models are assessed using precision, recall, F1-score, and ROC-AUC to ensure reliable rare-event detection.
 
 This workflow provides a practical solution for organizations that require high-quality predictions in environments where annotated data is limited or costly to obtain.
 
 ## Included in This Repository
 
-* Synthetic clinical notes
+- Synthetic clinical notes
 
-* Zero-shot prompt templates
+- Zero-shot prompt templates
 
-* LLM labeling script
+- LLM labeling script
 
-* ML training and evaluation pipelines
+- ML training and evaluation pipelines
 
-* Reproducible Jupyter notebooks
+- Reproducible Jupyter notebooks
