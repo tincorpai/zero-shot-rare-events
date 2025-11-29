@@ -21,12 +21,12 @@ This workflow provides a practical solution for organizations that require high-
 
 ## Included in This Repository
 
-Synthetic clinical notes
+* Synthetic clinical notes
 
-Zero-shot prompt templates
+* Zero-shot prompt templates
 
-LLM labeling script
+* LLM labeling script
 
-ML training and evaluation pipelines
+* ML training and evaluation pipelines
 
-Reproducible Jupyter notebooks
+* Reproducible Jupyter notebooks
